@@ -1,0 +1,15 @@
+n=int(input("enter a size:"))
+for i in range(0,n):
+    for s in range(0, n-i-1):
+        print(" ",end=" ")
+    for j in range(0,2*i+1):
+        if i==0 or i==n-1:
+            print("*",end='')
+        elif j==0 or j==2*i:
+            print("*",end='')
+        else:
+            print("*",end='')
+    print()
+        
+
+        
